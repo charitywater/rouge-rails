@@ -1,6 +1,6 @@
 module Rouge::Rails
   class TemplateHandler
-    def self.call(template)
+    def self.call(template, _source = nil)
       new(template).call
     end
 
